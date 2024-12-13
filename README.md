@@ -22,6 +22,6 @@
      the train and validation batch size are found in the config script
 
 # 2. Testing the model
-    -- To test our model use insert the path to your saved model in the save_model_dir variable in the config.py script
+    - To test our model use insert the path to your saved model in the save_model_dir variable in the config.py script
 #### Hint: The saved model are found in an `/current_working_dir/output-d-m-y` folder
-    -- Launch the test.py script 
+    - Launch the test.py script 
