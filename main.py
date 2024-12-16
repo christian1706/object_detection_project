@@ -160,7 +160,7 @@ def main():
         loss_dict['valid_loss'].extend(valid_loss_list)
 
         save_checkpoint(epoch + 1, model, optimizer, loss_dict, output_dir)
-        # plot_loss(loss_dict['train_loss'], loss_dict['valid_loss'])
+        plot_loss(loss_dict['train_loss'], loss_dict['valid_loss'], output_dir)
 
     with open(os.path.join(output_dir, "loss_dict.pkl"), "wb") as file:
         pickle.dump(loss_dict, file)
